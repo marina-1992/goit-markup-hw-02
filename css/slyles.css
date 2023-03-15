@@ -95,12 +95,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  color: var(--logo-color);
+  color: var(--white-color);
+  background-color: var(--logo-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background: var(--button-hover-color);
+  background-color: var(--button-hover-color);
 }
 /*==============Features Section=========*/
 .main-section {
@@ -119,8 +120,12 @@ body {
 .team-section {
   background-color: var(--light-color);
 }
+.team-item {
+  background-color: var(--white-color);
+}
 /*===================Portfolio Button===========*/
 .button-link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
