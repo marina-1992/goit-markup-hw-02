@@ -41,10 +41,11 @@ body {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  text-transform: uppercase;
+  color: var(--logo-color);
 }
 .logo-text {
-  color: var(--logo-color);
+  color: var(--title-text-color);
 }
 /*====================Navigation==================*/
 .menu-link {
@@ -84,15 +85,19 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
   color: var(--white-color);
 }
 .hero-btn {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--white-color);
-  background: var(--logo-color);
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  color: var(--logo-color);
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background: var(--button-hover-color);
@@ -112,7 +117,7 @@ body {
 }
 /*====================Our Team============*/
 .team-section {
-  color: var(--light-color);
+  background-color: var(--light-color);
 }
 /*===================Portfolio Button===========*/
 .button-link {
@@ -120,8 +125,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--logo-color);
-  background: var(--light-color);
+  background-color: var(--light-color);
 }
 .button-link:hover,
 .button-link:focus {
