@@ -101,7 +101,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-  background-color: var(--button-hover-color);
+  color: var(--button-hover-color);
 }
 /*==============Features Section=========*/
 .main-section {
@@ -143,6 +143,7 @@ body {
 .products-item {
   background: var(--light-color);
 }
+
 /*==================Footer==============*/
 .footer-list {
   background: var(--title-text-color);
