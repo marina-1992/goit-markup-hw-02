@@ -19,6 +19,7 @@ body {
 .link {
   text-decoration: none;
 }
+
 /*========================Main====================*/
 .title {
   font-weight: 500;
@@ -32,6 +33,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+.title-section {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--title-text-color);
 }
 /*========================Header===================*/
 /*========================Logo=====================*/
@@ -47,7 +56,7 @@ body {
 .logo-text {
   color: var(--title-text-color);
 }
-/*====================Navigation==================*/
+/*====================Navigation Menu==================*/
 .menu-link {
   font-weight: 500;
   font-size: 16px;
@@ -61,11 +70,10 @@ body {
   color: var(--button-hover-color);
 }
 /*=====================Contacts==================*/
-.contact-info {
-  font-style: normal;
-}
+
 .contact-link {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,8 +84,9 @@ body {
 .contact-link:focus {
   color: var(--button-hover-color);
 }
-/*===================/Header==================*/
-/*===================Hero=====================*/
+
+/*=======================Main===================*/
+/*==================Hero Section================*/
 .hero {
   background: var(--title-text-color);
 }
@@ -89,7 +98,7 @@ body {
   color: var(--white-color);
 }
 .hero-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -103,19 +112,13 @@ body {
 .hero-btn:focus {
   color: var(--button-hover-color);
 }
-/*==============Features Section=========*/
-.main-section {
-  background: var(--secondary-background-color);
+
+/*=================Features Section============*/
+.section {
+  background-color: var(--white-color);
 }
 /*================Our Works=============*/
-.title-section {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--title-text-color);
-}
+
 /*====================Our Team============*/
 .team-section {
   background-color: var(--light-color);
@@ -125,7 +128,7 @@ body {
 }
 /*===================Portfolio Button===========*/
 .button-link {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -140,7 +143,7 @@ body {
   background: var(--button-hover-color);
 }
 /*===============Portfolio Products======*/
-.products-item {
+.products-link {
   background: var(--light-color);
 }
 
@@ -148,10 +151,10 @@ body {
 .footer-list {
   background: var(--title-text-color);
 }
-.logo-footer {
+.footer-logo {
   color: var(--light-color);
 }
-.text-footer {
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
