@@ -11,7 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
-  background: var(--white-color);
+  background-color: var(--white-color);
 }
 .list {
   list-style: none;
@@ -116,9 +116,7 @@ body {
 }
 
 /*=================Features Section============*/
-.section {
-  background-color: var(--white-color);
-}
+
 /*================Our Works=============*/
 
 /*====================Our Team============*/
